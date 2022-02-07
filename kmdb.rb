@@ -133,8 +133,9 @@ puts ""
 
 # Query the cast data and loop through the results to display the cast output for each movie
 # TODO!
-movies = Movie.all
-for movie in movies
-    director = Person.where({id: movie.person_id})[0] 
-    puts "#{movie.title} #{movie.year_released} #{movie.rated} #{director.name}"
-end
+#movies = Movie.all
+#for movie in movies
+ #   actor = Person.where({id: movie.person_id})[0] 
+ #   character_name = Person.where({id: movie.person_id})[0] 
+  #  puts "#{movie.title} #{person.name} #{role.character_name}"
+#end
